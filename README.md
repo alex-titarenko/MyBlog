@@ -1,2 +1,0 @@
-# my-blog
-NotesHub Notebook
