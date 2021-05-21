@@ -18,4 +18,4 @@ I hope you will find a lot in the future posts and don't forget to leave a comme
 
 <!--more-->
 
-![It's just beginning](the-beginning.jpg)
+![It's just beginning](/.attachments/8a2309532e27e678df5eb9edb1afe796c0e48557.jpeg)
