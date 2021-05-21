@@ -3,7 +3,7 @@ id: 57b96ef9-05b2-46e0-b8be-a65f04bb6653
 title: "Secrets auto-rotation in Azure: Part II - AAD certificates"
 published: true
 postedOn: 05/18/2018
-image: new-project-azure-functions.png
+image: /.attachments/0f643f491da0201abf5fea804bd840bd61d4b9cb.svg+xml
 category: azure
 tags: keyvault, azure, secrets-autorotation
 description: In the first post of the series regarding secrets auto-rotation, I mentioned AAD certificate as part of a communication process between a client and Key Vault. Now it's time to touch this topic in more details.
@@ -33,7 +33,7 @@ All of those reasons make a function application a perfect tool to accomplish ou
 
 First of all, I would like to share with you the overall picture what are we going to implement:
 
-![Workflow diagram](workflow-diagram.svg "Workflow diagram")
+![Workflow diagram](/.attachments/0f643f491da0201abf5fea804bd840bd61d4b9cb.svg+xml "Workflow diagram")
 
 1. Using managed Identity, Azure Functions application talks to Key Vault to request new AAD self-signed certificate. 
 2. Azure Functions application generates [AD Access Token](https://docs.microsoft.com/en-us/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync?view=azure-dotnet) using last working certificate from Key Vault. 
@@ -43,16 +43,16 @@ First of all, I would like to share with you the overall picture what are we goi
 
 > **NOTE:** Because we are using the current, non-expired AAD certificate to create and register the new one, we have to do it in advance, before the expiration of the current certificate. The second reason, we need to give some time for the client to pull new certificate from Key Vault to provide seamless, non-destructive process. 
 
-![Certificates lifetime](certificates-lifetime.svg)
+![Certificates lifetime](/.attachments/1bc2840dbd1500bbc1808d73ea91a1a728f84192.svg+xml)
 
 ## Creating project
 
 To begin with let's open Visual Studio and create Azure Functions project:
 
-![New project - Azure Functions](new-project-azure-functions.png)
+![New project - Azure Functions](/.attachments/df69c60d812ea023878ce8dd14c1849ff571d065.png)
 
 Then we should choose **Timer trigger** (schedule expression is specified in [cron](https://en.wikipedia.org/wiki/Cron) format):
-![Timer trigger](new-project-trigger-type.png)
+![Timer trigger](/.attachments/7c6dfbc9e8a43bd81fcc0181d386501ca92aa20c.png)
 
 Once the empty project is created, we can start writing code. Let's add the following NuGet packages to the project:
 * Microsoft.Azure.KeyVault
@@ -656,11 +656,11 @@ namespace AadKeyAutoRotation.GraphApi
 ### MS Deploy
 For simplicity, we will use MsDeploy through Visual Studio. Right-click on the project, select **Publish...**
 
-![New publish](new-publish.png)
+![New publish](/.attachments/f22d19916562e943dbe35b7d070c1c0b82094acc.png)
 
 Select **Create New**, then click **Publish**.
 
-![Create App Service](create-app-service.png)
+![Create App Service](/.attachments/08b1b258eb491969aaf11c8fcb10dd400121f72a.png)
 
 Select application name, subscription, resource group, hosting plan (I recommend to choose consumption plan) and storage account.
 
@@ -671,13 +671,13 @@ Click **Create** button, and you are all set, well, almost, we still need a coup
 Open your function app in Azure, then navigate to _Platform features_ > _Application settings_.
 Some of them will be already prepopulated like AzureWebJobsDashboard, AzureWebJobsStorage, FUNCTIONS_EXTENSION_VERSION. For rest of them, you know where to find the values, check out the documentation above.
 
-![Application Settings](application-settings.png)
+![Application Settings](/.attachments/a196a4b9f36e483200d2633b441619eeee5bb5db.png)
 
 ### Enabling manage identity
 
 In the same section, in Platform features, find **Managed service identity**, go ahead and enable it, now we can step into the very last step.
 
-![Manage Identity](manage-identity.png)
+![Manage Identity](/.attachments/cad692bb47fa547919a81f53af84d64da6ffe6fc.png)
 
 ### Key Vault permissions
 
@@ -693,7 +693,7 @@ Let's open _Key Vault_ > _Access policies_ > _Add new_:
 ## Testing our work
 To verify that we did everything right, let's restart function application and check invocation logs:
 
-![Function App Invocation List](function-app-invocation-list.png)
+![Function App Invocation List](/.attachments/eda529999754b39b2693e7d3870c6eec3d0cbc5b.png)
 
 Finally, we nailed server-side auto-rotation for AAD certificate! Now it's time to take a look at client-side.
 
