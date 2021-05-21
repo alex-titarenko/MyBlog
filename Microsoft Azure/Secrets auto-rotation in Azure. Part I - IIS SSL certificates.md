@@ -3,7 +3,7 @@ id: c67ce094-6ed4-4795-8ff4-e109d3ed667a
 title: "Secrets auto-rotation in Azure: Part I - IIS SSL certificates"
 published: true
 postedOn: 04/18/2018
-image: new-resource-akv.png
+image: /.attachments/8934d00ef4bd0a61db3b7028f0a76cddce67c4c9.png
 category: azure
 tags: iis, keyvault, azure, powershell, secrets-autorotation
 description: The first post from the series regarding secrets auto-rotation I would like to dedicate to IIS (Internet Information Services) and SSL certificates. We will implement end-to-end solution for rotation of an SSL certificate for IIS.
