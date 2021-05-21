@@ -3,7 +3,7 @@ id: cd7d5df4-fdac-47c8-b271-d482193d63f4
 title: Progressive Web Applications - Start Developing Today
 published: true
 postedOn: 05/15/2019
-image: pwa-blogpost.png
+image: /.attachments/7b066af14aa42c569b3de8d64fa46db40a1ff53b.png
 category: pwa
 tags: javascript, pwa
 description: "When I first heard about Progressive Web Applications I exclaimed: \"This is it! That's how application development should look like\". Truly cross-platform, one solution for every platform, from mobile to desktop. Fast, offline, responsive, installable and many more. Then I decided to build my very first PWA! In this post, I want to share all my findings which accumulate my experience with Progressive Web Applications. Let's the story begin."
@@ -179,7 +179,7 @@ When you start learning a new technology, what do you usually make? "Hello World
 
 In my case with PWA, I decided to make something more complicated. Please meet [**MultiCalc**](https://about.multicalculator.app) - a powerful, modern, multifunctional calculator made for everyone.
 
-![Multicalc](my-experience-multicalc.png)
+![Multicalc](/.attachments/f82133052f93900de54f02ce2771079b3e4cc014.png)
 
 The project was implemented using Angular 7 and TypeScript. For hosting, I chose Azure Storage (Website feature) + Verizon CDN for SPA rauting. In terms of PWA features like service workers, I didn't do almost anything, Angular framework took care for most of the part.
 
