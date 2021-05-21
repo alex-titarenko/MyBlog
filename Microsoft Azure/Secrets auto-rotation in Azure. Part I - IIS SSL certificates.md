@@ -36,17 +36,18 @@ For this particular scenario, the server-side rotation is the easiest because au
 ### Creating Azure Key Vault
 
 Navigate to all resources in Azure portal and search for Key Vault or click this [link](https://portal.azure.com/#create/Microsoft.KeyVault). Press **Create** button.
-![New resource - Azure Key Vault](new-resource-akv.png)
+
+![New resource - Azure Key Vault](/.attachments/8934d00ef4bd0a61db3b7028f0a76cddce67c4c9.png)
 
 ### Registering Certificate authorities
 After this, you need to tie Azure and your **certificate authority**. As of today, Azure supports [DigiCert](https://www.digicert.com) and [GlobalSign](https://www.globalsign.com) certificate authorities.
 So, create an account on one of them in advance and buy an SSL certificate. After this step, you can register authority in Azure.
-![Manage Certificate Authorities](manage-cert-authorities.png)
+![Manage Certificate Authorities](/.attachments/a7888bd64107e5ab54806d67b4228d48f050071e.png)
 
 ### Creating Certificate
 Finally, we have come to the last and most crucial step, automatically rotating certificate in Key Vault.
 On **Certificates** tab click on **Generate/Import** button.
-![Generate Certificate](generate-certificate.png)
+![Generate Certificate](/.attachments/7adcc1e5d7aa17dc6e78fa75605c1eaf8c8cd914.png)
 
 Don't forget to select your already created **Certificate Authority (CA)** and your website domain in **Subject name** field.
 
@@ -301,7 +302,7 @@ The very last step. Create scheduled task:
    *  Program/script: **powershell**
    * Add arguments: ```-command "& <Your-Path-To-Startup-Script>\Startup.ps1"```.
 
-![Task Scheduler](task-scheduler.png)
+![Task Scheduler](/.attachments/35fc2f63816ec8257c1c2edf75e2798499067332.png)
 
 # Home assignment
 There is no limit to perfection. You can try to improve this process in the following ways:
