@@ -16,7 +16,7 @@ The last major iteration was switching from classic .NET Framework to .NET Core 
 With those changes, you can get many benefits. Some of them you will find on the official [introduction](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-2.0#what-is-asp-net-core) page.
 You can find many articles regarding ASP.NET Core migration like [this](https://docs.microsoft.com/en-us/aspnet/core/migration/?view=aspnetcore-2.0). However, they don't cover all cases, that's why I decided to share my own experience.
 
-![aspnetcore-migration](/.attachments/538e48a4639b3e6e828c535980795bc2d44aca97.svg+xml)
+![aspnetcore-migration](/.attachments/538e48a4639b3e6e828c535980795bc2d44aca97.svg)
 
 <!--more-->
 
