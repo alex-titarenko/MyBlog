@@ -43,7 +43,7 @@ First of all, I would like to share with you the overall picture what are we goi
 
 > **NOTE:** Because we are using the current, non-expired AAD certificate to create and register the new one, we have to do it in advance, before the expiration of the current certificate. The second reason, we need to give some time for the client to pull new certificate from Key Vault to provide seamless, non-destructive process. 
 
-![Certificates lifetime](/.attachments/1bc2840dbd1500bbc1808d73ea91a1a728f84192.svg+xml)
+![Certificates lifetime](/.attachments/1bc2840dbd1500bbc1808d73ea91a1a728f84192.svg)
 
 ## Creating project
 
