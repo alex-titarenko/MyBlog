@@ -8,7 +8,7 @@ category: other
 description: My first blog post in which I'll show my plans what I'm about to share.
 ---
 
-Hi everyone, my name is Alex, and this is my first blog post.
+Hi everyone, my name is Alex, and this is my first blog post. 
 
 I'm a software developer, and I'm about to share my ideas and thoughts with other people on programming and IT in general. I do a lot of coding in my job as well as in my spare time. My current favorite technologies based on .NET technology stack and JavaScript, I like desktop/web/cloud/mobile development.
 
