@@ -3,7 +3,7 @@ id: 57b96ef9-05b2-46e0-b8be-a65f04bb6653
 title: "Secrets auto-rotation in Azure: Part II - AAD certificates"
 published: true
 postedOn: 05/18/2018
-image: /.attachments/0f643f491da0201abf5fea804bd840bd61d4b9cb.svg+xml
+image: /.attachments/0f643f491da0201abf5fea804bd840bd61d4b9cb.svg
 category: azure
 tags: keyvault, azure, secrets-autorotation
 description: In the first post of the series regarding secrets auto-rotation, I mentioned AAD certificate as part of a communication process between a client and Key Vault. Now it's time to touch this topic in more details.
@@ -33,7 +33,7 @@ All of those reasons make a function application a perfect tool to accomplish ou
 
 First of all, I would like to share with you the overall picture what are we going to implement:
 
-![Workflow diagram](/.attachments/0f643f491da0201abf5fea804bd840bd61d4b9cb.svg+xml "Workflow diagram")
+![Workflow diagram](/.attachments/0f643f491da0201abf5fea804bd840bd61d4b9cb.svg "Workflow diagram")
 
 1. Using managed Identity, Azure Functions application talks to Key Vault to request new AAD self-signed certificate. 
 2. Azure Functions application generates [AD Access Token](https://docs.microsoft.com/en-us/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync?view=azure-dotnet) using last working certificate from Key Vault. 
