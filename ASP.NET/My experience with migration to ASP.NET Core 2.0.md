@@ -9,6 +9,10 @@ tags: dotnet, netcore, aspnet-core, mvc
 description: I started developing my website in 2012, and it has gone through so many changes. The last major iteration was switching from classic .NET Framework to .NET Core 2.0 and ASP.NET Core as well. You can find many articles regarding ASP.NET Core migration like this. However, they don't cover all cases, that's why I decided to share my own experience.
 ---
 
+<style type="text/css">
+    img[alt="aspnetcore-migration"] { max-width: 600px }
+</style>
+
 I started developing my website in 2012, and it has gone through so many changes. The first version was written in PHP. Then I eventually moved to ASP.NET MVC 3.0. The UI changed a couple of times, and the major version already exceeded number 5.
 
 The last major iteration was switching from classic .NET Framework to .NET Core 2.0 and ASP.NET Core as well.
