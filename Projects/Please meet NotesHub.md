@@ -8,7 +8,7 @@ description: ""
 ## Introduction
 
 Hello my friend. I may assume that some of you also may write blog posts. Then the next question for you, how do you author them, what tool/platform do you use? WordPress, Blogger, Medium, anything else?
-In my case I used to have an admin panel in my website where I could author posts. But when I moved to JAMstack I lose that ability since all of the counted was stored in Git repositories and I left with ability to use GitHub website, VS Code or something different up until now. 
+Since I'm software developer and not always try to find easy and straightforward path I developed my own simple blogging system where all of the blog posts are stored in Git repository as markdown files and during build process will be compiled into HTML files to easy serve from CDN. In this approach there is one single problem, it may not be the most pleasant way to change or create blog post from VS Code or GitHub website.
 
 ## Birth of the idea
 
