@@ -12,6 +12,8 @@ In my case I used to have an admin panel in my website where I could author post
 
 ## Birth of the idea
 
+I started thinking about the idea of my new side project in late of Fall 2020. The main driver was the dislike of some core principals of OneNote, at that moment the primary note-taking app for my personal needs.
+
 ## Implementation
 
-## The future of the project
+## The road ahead
