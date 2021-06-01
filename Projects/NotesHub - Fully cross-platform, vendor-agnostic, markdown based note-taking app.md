@@ -21,6 +21,6 @@ By searching in App Store I found GitJournal application which kind of what I wa
 
 ## Implementation
 
-I the last day before going to vacation in Cancun, I made the final commit to finalize MVP version of the project and ending the 6 month journey from the idea to first stable version. Project was available to public.
+In the last day before going to vacation in Cancun, I made the final commit to finalize MVP version of the project and ending the 6 month journey from the idea to first stable version. Project was available to public.
 
 ## The road ahead
