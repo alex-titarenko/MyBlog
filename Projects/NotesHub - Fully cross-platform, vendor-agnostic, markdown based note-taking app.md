@@ -40,6 +40,21 @@ Almost before my first public release I fond a really serious bug which postpone
 
 In the last day before going to vacation in Cancun, I made the final commit to finalize MVP version of the project and ended the 6 month journey from the idea to first stable version. Project was finally available to public.
 
+## Competitors comparison
+
+
+| | Markdown support | Cross-platform | Web version | Merge conflicts<br>auto-resolution |
+|--|--|--|--|--|
+| [NotesHub](https://noteshub.app) | yes | x | x | x |
+| [OneNote](https://onenote.com/) | no | x | x | x |
+| [Evernote](https://evernote.com) | no | x | x | x |
+| [GitJournal](https://gitjournal.io) | yes | x | x | x |
+| [Joplin](https://joplinapp.org) | yes | x | x | x |
+| [StackEdit](https://stackedit.io/) | yes | x | x | x |
+| [Notion](https://www.notion.so) | no | x | x | x |
+
+
+
 ## The road ahead
 As for any new product I'm seeking for public support. This will determine the future of the project and availability of new features. In my head I see a lot of ways for improvement and here the list of some of them:
 
