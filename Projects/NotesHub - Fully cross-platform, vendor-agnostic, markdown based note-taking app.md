@@ -43,16 +43,16 @@ In the last day before going to vacation in Cancun, I made the final commit to f
 ## Competitors comparison
 
 
-| | Markdown support | Cross-platform | Web version | Merge conflicts<br>auto-resolution |
-|--|--|--|--|--|
-| [NotesHub](https://noteshub.app) | yes | x | x | x |
-| [OneNote](https://onenote.com/) | no | x | x | x |
-| [Evernote](https://evernote.com) | no | x | x | x |
-| [GitJournal](https://gitjournal.io) | yes | x | x | x |
-| [Joplin](https://joplinapp.org) | yes | x | x | x |
-| [StackEdit](https://stackedit.io/) | yes | x | x | x |
-| [Notion](https://www.notion.so) | yes | x | x | x |
-| [Notable](https://notable.app) | yes | x | x | x |
+| | Markdown support | Git support | Cross-platform | Web version | Merge conflicts<br>auto-resolution |
+|--|--|--|--|--|--|
+| [NotesHub](https://noteshub.app) | yes | yes | x | x | |
+| [OneNote](https://onenote.com/) | no | no | x | x | |
+| [Evernote](https://evernote.com) | no | no | x | x | |
+| [GitJournal](https://gitjournal.io) | yes | yes | x | x | |
+| [Joplin](https://joplinapp.org) | yes | no | n/a | x | |
+| [StackEdit](https://stackedit.io/) | yes | yes | x | x | |
+| [Notion](https://www.notion.so) | yes | n/a | x | x | |
+| [Notable](https://notable.app) | yes | n/a | x | x | |
 
 
 
