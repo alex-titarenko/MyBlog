@@ -51,7 +51,8 @@ In the last day before going to vacation in Cancun, I made the final commit to f
 | [GitJournal](https://gitjournal.io) | yes | x | x | x |
 | [Joplin](https://joplinapp.org) | yes | x | x | x |
 | [StackEdit](https://stackedit.io/) | yes | x | x | x |
-| [Notion](https://www.notion.so) | no | x | x | x |
+| [Notion](https://www.notion.so) | yes | x | x | x |
+| [Notable](https://notable.app) | yes | x | x | x |
 
 
 
