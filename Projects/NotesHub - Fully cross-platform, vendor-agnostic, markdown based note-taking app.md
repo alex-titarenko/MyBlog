@@ -8,7 +8,7 @@ description: ""
 ## Introduction
 
 Hello my friend. May I assume that some of you also write blog posts? Then the next question for you, how do you author them, what tool/platform do you use? WordPress, Blogger, Medium, anything else?
-Since I'm software developer and not always try to find easy and straightforward path, I developed my own simple blogging system where all of the blog posts are stored in Git repository as markdown files. During the build process they will be compiled into HTML files to easy serve from CDN. In this approach there is one single problem, it may not be the most pleasant way to change or create blog post from VS Code or GitHub website.
+Since I'm software developer and not always try to find easy and straightforward path, I developed my own simple blogging system where all of the blog posts are stored in Git repository as markdown files. During the build process they will be compiled into HTML files to easy serve from CDN. However in this approach there is one single problem, it may not be the most pleasant way to change or create blog post from VS Code or GitHub website.
 Luckily, my recently developed tool [NotesHub](https://noteshub.app) solved this puzzle, and this post is meant to open the curtain behind my new project.
 
 ## Birth of the idea
