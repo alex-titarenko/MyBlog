@@ -21,7 +21,12 @@ By searching in App Store I found GitJournal application which kind of what I wa
 
 ## Implementation
 
-Since I'm huge fan of [PWA](https://en.wikipedia.org/wiki/Progressive_web_application) and have experience with creating such application I had no doubt what technology to use.
+Since I'm huge fan of [PWA](https://en.wikipedia.org/wiki/Progressive_web_application) and have experience with creating such application I had no doubt what technology to use. In October 30, 2020 I made my first commit.
+Initially I planed to use only GitHub API for working with GitHub, but that I quickly realized all limitations. I would not be able to fully implement offline use-cases like editing and creating notes without network connectivity. With some Googling I found https://isomorphic-git.org open-source project which I could use as Git client in the browser and that will enable range of possibilities compare with just GitHub API:
+* Much faster Notebooks cloning (with API every Note should be downloaded with a separate HTTP request).
+* Full offline support.
+* Ability to do 3-way merge of notes.
+* Faster sync operation.
 
 In the last day before going to vacation in Cancun, I made the final commit to finalize MVP version of the project and ending the 6 month journey from the idea to first stable version. Project was finally available to public.
 
