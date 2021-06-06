@@ -38,7 +38,7 @@ But it turned-out is not easy to implement and it took solid two weeks to get sa
 ### Bullet-proof Git sync
 Almost before my first public release I fond a really serious bug which postponed release to almost a month. The problem appeared in some rare cases when you make changes in notes and close the app. After restarting the application, local Git repository may go the the bad state when only re-cloning will help and as result your local edits will get lost, pretty serious, ha? After intensive debugging I found the root cause, the default file-system provider [lightning-fs](https://github.com/isomorphic-git/lightning-fs) for isomorphic-git uses the hybrid model when part of the data is stored in memory and is persisted to IndexedDB with a debounce of 500ms. If you terminate the application in the middle, you will be screwed. I did not find a better way for this problem then writing my own file-system layer for Git. It turned out not as fast as lightning-fs but much more robust for any interference during pull/push operations.
 
-In the last day before going to vacation in Cancun, I made the final commit to finalize MVP version of the project and ending the 6 month journey from the idea to first stable version. Project was finally available to public.
+In the last day before going to vacation in Cancun, I made the final commit to finalize MVP version of the project and ended the 6 month journey from the idea to first stable version. Project was finally available to public.
 
 ## The road ahead
 As for any new product I'm seeking for public support. This will determine the future of the project and availability of new features. In my head I see a lot of ways for improvement and here the list of some of them:
@@ -53,4 +53,4 @@ As for any new product I'm seeking for public support. This will determine the f
 
 And many more....
 
-I don't have any plans to make product paid, but may switch to volunteers donation made to support my enthusiasm.
+I don't have any plans to make product paid, but may switch to volunteers donation to keep support my enthusiasm.
