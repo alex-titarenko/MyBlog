@@ -21,7 +21,7 @@ By searching in App Store I found GitJournal application which kind of what I wa
 
 ## Implementation
 
-Since I already had experience with PWA I did not have a doubt what technology to use.
+Since I'm huge fan of [PWA](https://en.wikipedia.org/wiki/Progressive_web_application) and have experience with creating such application I had no doubt what technology to use.
 
 In the last day before going to vacation in Cancun, I made the final commit to finalize MVP version of the project and ending the 6 month journey from the idea to first stable version. Project was finally available to public.
 
