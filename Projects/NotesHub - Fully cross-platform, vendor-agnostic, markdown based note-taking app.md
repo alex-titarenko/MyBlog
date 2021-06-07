@@ -45,7 +45,7 @@ In the last day before going to vacation in Cancun, I made the final commit to f
 
 | | Markdown support | Git support | Cross-platform | Web version | Merge conflicts<br>auto-resolution |
 |--|--|--|--|--|--|
-| [NotesHub](https://noteshub.app) | yes | yes | x | x | |
+| [**NotesHub**](https://noteshub.app) | **yes** | **yes** | x | x | |
 | [OneNote](https://onenote.com/) | no | no | x | x | |
 | [Evernote](https://evernote.com) | no | no | x | x | |
 | [GitJournal](https://gitjournal.io) | yes | yes | x | x | |
