@@ -48,6 +48,10 @@ edited from mobile
 edited from desktop
 :::
 ````
+Rendered result:
+![image](/.attachments/9548eea1d70c6af538c283488bafddc4b9051561.png)
+
+If during the merge different lines were updated they will be merged automatically without any alternative variants.
 
 In the last day before going to vacation in Cancun, I made the final commit to finalize MVP version of the project and ended the 6 month journey from the idea to first stable version. Project was finally available to public.
 
