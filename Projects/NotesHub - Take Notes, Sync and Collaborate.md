@@ -55,6 +55,8 @@ If during the merge different lines were updated they will be merged automatical
 
 In the last day before going to vacation in Cancun, I made the final commit to finalize MVP version of the project and ended the 6 month journey from the idea to first stable version. Project was finally available to public.
 
+![image](https://about.noteshub.app/images/promo-banner.png)
+
 ## Competitors comparison
 
 
