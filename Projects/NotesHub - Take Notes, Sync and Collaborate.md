@@ -49,7 +49,7 @@ edited from desktop
 :::
 ````
 Rendered result:
-![image](/.attachments/9548eea1d70c6af538c283488bafddc4b9051561.png)
+![image](/.attachments/0c7eb1f0e7e6d362f7443bddb190e7ee8e7eed76.png)
 
 If during the merge different lines were updated they will be merged automatically without any alternative variants.
 
