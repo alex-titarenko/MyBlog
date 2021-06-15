@@ -61,12 +61,12 @@ In the last day before going to vacation in Cancun, I made the final commit to f
 ## Competitor's comparison
 
 
-| | Markdown support | Git support | Cross-platform | Web version | Merge conflicts<br>auto-resolution |
+| | Markdown support | Git support | Cross-platform | Web app | Merge conflicts<br>auto-resolution |
 |--|--|--|--|--|--|
-| [**NotesHub**](https://noteshub.app) | **yes** | **yes** | x | x | |
-| [OneNote](https://onenote.com/) | no | no | x | x | |
+| [**NotesHub**](https://noteshub.app) | **yes** | **yes** | **yes** | **yes** | **yes** |
+| [OneNote](https://onenote.com/) | no | no | yes | no | yes |
 | [Evernote](https://evernote.com) | no | no | x | x | |
-| [GitJournal](https://gitjournal.io) | yes | yes | x | x | |
+| [GitJournal](https://gitjournal.io) | yes | yes | no | no | |
 | [Joplin](https://joplinapp.org) | yes | no | n/a | x | |
 | [StackEdit](https://stackedit.io/) | yes | yes | x | x | |
 | [Notion](https://www.notion.so) | yes | n/a | x | x | |
