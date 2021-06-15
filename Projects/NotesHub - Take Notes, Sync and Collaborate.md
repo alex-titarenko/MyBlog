@@ -67,7 +67,7 @@ In the last day before going to vacation in Cancun, I made the final commit to f
 | [OneNote](https://onenote.com/) | no | no | yes | no | yes |
 | [Evernote](https://evernote.com) | no | no | yes | no | no<br>(creates duplicate files) |
 | [GitJournal](https://gitjournal.io) | yes | yes | no | no | |
-| [Joplin](https://joplinapp.org) | yes | no | n/a | x | |
+| [Joplin](https://joplinapp.org) | yes | no | yes | no | no<br>(creates duplicate files) |
 | [StackEdit](https://stackedit.io/) | yes | yes | yes | yes | last win |
 | [Notion](https://www.notion.so) | yes | n/a | x | x | |
 | [Notable](https://notable.app) | yes | n/a | x | x | |
