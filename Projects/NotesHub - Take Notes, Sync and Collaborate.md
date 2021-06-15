@@ -68,8 +68,8 @@ In the last day before going to vacation in Cancun, I made the final commit to f
 | [Evernote](https://evernote.com) | no | no | yes | no | no<br>(creates copy of conflicting files) |
 | [GitJournal](https://gitjournal.io) | yes | yes | no | no | |
 | [Joplin](https://joplinapp.org) | yes | no | yes | no | no<br>(creates copy of conflicting files) |
-| [StackEdit](https://stackedit.io/) | yes | yes | yes | yes | last win |
-| [Notion](https://www.notion.so) | yes | no | yes | no | no<br>(last win) |
+| [StackEdit](https://stackedit.io/) | yes | yes | yes | yes | no<br>(last one wins) |
+| [Notion](https://www.notion.so) | yes | no | yes | no | no<br>(last one wins) |
 | [Notable](https://notable.app) | yes | no | no | no | no |
 
 
