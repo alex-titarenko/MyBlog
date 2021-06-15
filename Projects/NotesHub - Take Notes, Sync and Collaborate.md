@@ -70,7 +70,7 @@ In the last day before going to vacation in Cancun, I made the final commit to f
 | [Joplin](https://joplinapp.org) | yes | no | yes | no | no<br>(creates copy of conflicting files) |
 | [StackEdit](https://stackedit.io/) | yes | yes | yes | yes | last win |
 | [Notion](https://www.notion.so) | yes | n/a | yes | no | |
-| [Notable](https://notable.app) | yes | n/a | x | x | |
+| [Notable](https://notable.app) | yes | no | no | no | no |
 
 
 
