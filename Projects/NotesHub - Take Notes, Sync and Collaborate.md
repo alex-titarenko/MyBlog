@@ -65,9 +65,9 @@ In the last day before going to vacation in Cancun, I made the final commit to f
 |--|--|--|--|--|--|
 | [**NotesHub**](https://noteshub.app) | **yes** | **yes** | **yes** | **yes** | **yes** |
 | [OneNote](https://onenote.com/) | no | no | yes | no | yes |
-| [Evernote](https://evernote.com) | no | no | yes | no | no<br>(creates duplicate files) |
+| [Evernote](https://evernote.com) | no | no | yes | no | no<br>(creates copy of conflicting files) |
 | [GitJournal](https://gitjournal.io) | yes | yes | no | no | |
-| [Joplin](https://joplinapp.org) | yes | no | yes | no | no<br>(creates duplicate files) |
+| [Joplin](https://joplinapp.org) | yes | no | yes | no | no<br>(creates copy of conflicting files) |
 | [StackEdit](https://stackedit.io/) | yes | yes | yes | yes | last win |
 | [Notion](https://www.notion.so) | yes | n/a | x | x | |
 | [Notable](https://notable.app) | yes | n/a | x | x | |
