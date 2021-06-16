@@ -87,4 +87,4 @@ As for any new product I'm seeking for public support. This will determine the f
 * Notes search capabilities.
 * Printing and exporting notes.
 
-I don't have any plans to make product paid but may switch to volunteers donation to keep support my enthusiasm.
+If you have any feature suggestions please send the request in the application.
