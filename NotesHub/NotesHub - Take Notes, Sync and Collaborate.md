@@ -25,10 +25,10 @@ By searching in App Store, I found GitJournal application which kind of what I w
 Since I'm huge fan of [PWA](https://en.wikipedia.org/wiki/Progressive_web_application) and have experience with creating such application I had no doubt what technology to use. The idea is simple and not new - create web app which uses Git for notes storage and Markdown for notes representation. In October 30, 2020 I made my first commit.
 Initially I planned to use only GitHub API for notes synchronization, but then I quickly realized all of the limitations. I would not be able to fully implement offline use-cases like editing and creating notes without network connectivity. With some searching I found https://isomorphic-git.org open-source project which I could use as Git client in the browser and that will enable range of possibilities compare with just using GitHub API:
 
-* Much faster Notebooks cloning
-* Full offline support
-* Ability to perform [three-way merge](https://en.wikipedia.org/wiki/Merge_(version_control)) of notes
-* Faster sync operation
+* Much faster Notebooks cloning.
+* Full offline support.
+* Ability to perform [three-way merge](https://en.wikipedia.org/wiki/Merge_(version_control)) of notes.
+* Faster sync operation.
 
 I don't want to write detailed development process but would like to highlight some challenges along the road.
 
@@ -78,13 +78,13 @@ In the last day before going to vacation in Cancun, I made the final commit to f
 ## The road ahead
 As for any new product I'm seeking for public support. This will determine the future of the project and availability of new features. In my head I see a lot of ways for improvement and here the list of some of them:
 
-* Quick notes - ability to create new notes to predefined notebook/section from the application main screen
-* Draft notes - will help to restore data after application crash or sudden close when you have unsaved notes
-* Syntax highlighting for code blocks
-* Support of [Mermaid](https://mermaid-js.github.io/mermaid) diagrams
-* Support of [KaTeX](https://katex.org) for math expressions
-* Search capabilities
-* Printing and exporting notes
+* Quick notes - ability to create new notes to predefined notebook/section from the application main screen.
+* Draft notes - will help to restore data after application crash or sudden close when you have unsaved notes.
+* Syntax highlighting for code blocks.
+* Support of [Mermaid](https://mermaid-js.github.io/mermaid) diagrams.
+* Support of [KaTeX](https://katex.org) for math expressions.
+* Search capabilities.
+* Printing and exporting notes.
 
 And many more....
 
