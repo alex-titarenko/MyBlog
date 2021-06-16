@@ -1,7 +1,8 @@
 ---
 id: cd3f67ec-5eb6-4cfd-98f6-17a40c0b2969
 published: false
-postedOn: 05/30/2021
+postedOn: 06/15/2021
+image: /.attachments/6485a99f0ca690dedc925cf06d056d5fe92a7f86.png
 description: ""
 ---
 
@@ -56,7 +57,7 @@ If during the merge different lines were updated, they will be merged automatica
 
 In the last day before going to vacation in Cancun, I made the final commit to finalize MVP version of the project and ended the 6-month journey from the idea to first stable version. Project was finally available to public.
 
-![image](https://about.noteshub.app/images/promo-banner.png)
+![image](/.attachments/6485a99f0ca690dedc925cf06d056d5fe92a7f86.png)
 
 ## Competitor's comparison
 
