@@ -53,7 +53,7 @@ edited from desktop
 Rendered result:
 ![image](/.attachments/0c7eb1f0e7e6d362f7443bddb190e7ee8e7eed76.png)
 
-If during note sync different lines were updated, they will be merged automatically without any alternative variants.
+> If during note sync different lines were updated, they will be merged automatically without any alternative variants.
 
 In the last day before going to vacation in Cancun, I made the final commit to finalize MVP version of the project and ended the 6-month journey from the idea to first stable version. Project was finally available to public.
 
