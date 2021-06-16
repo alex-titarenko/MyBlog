@@ -23,7 +23,7 @@ By searching in App Store, I found GitJournal application which kind of what I w
 ## Implementation
 
 Since I'm huge fan of [PWA](https://en.wikipedia.org/wiki/Progressive_web_application) and have experience with creating such application I had no doubt what technology to use. The idea is simple and not new - create web app which uses Git for notes storage and Markdown for notes representation. In October 30, 2020 I made my first commit.
-Initially I planned to use only GitHub API for notes syncing, but that I quickly realized all of the limitations. I would not be able to fully implement offline use-cases like editing and creating notes without network connectivity. With some searching I found https://isomorphic-git.org open-source project which I could use as Git client in the browser and that will enable range of possibilities compare with just GitHub API:
+Initially I planned to use only GitHub API for notes synchronization, but then I quickly realized all of the limitations. I would not be able to fully implement offline use-cases like editing and creating notes without network connectivity. With some searching I found https://isomorphic-git.org open-source project which I could use as Git client in the browser and that will enable range of possibilities compare with just GitHub API:
 
 * Much faster Notebooks cloning
 * Full offline support
