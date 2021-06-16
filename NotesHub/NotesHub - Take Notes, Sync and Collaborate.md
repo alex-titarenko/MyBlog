@@ -79,14 +79,12 @@ Here I would like to highlight and compare some notable competitors and availabi
 ## The road ahead
 As for any new product I'm seeking for public support. This will determine the future of the project and availability of new features. In my head I see a lot of ways for improvement and here the list of some of them:
 
-* Quick notes - ability to create new notes to predefined notebook/section from the application main screen.
+* Quick notes - ability to create new notes for predefined notebook/section from the application main screen.
 * Draft notes - will help to restore data after application crash or sudden close when you have unsaved notes.
 * Syntax highlighting for code blocks.
 * Support of [Mermaid](https://mermaid-js.github.io/mermaid) diagrams.
 * Support of [KaTeX](https://katex.org) for math expressions.
-* Search capabilities.
+* Notes search capabilities.
 * Printing and exporting notes.
-
-And many more....
 
 I don't have any plans to make product paid but may switch to volunteers donation to keep support my enthusiasm.
