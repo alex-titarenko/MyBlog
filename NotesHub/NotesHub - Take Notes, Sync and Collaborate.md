@@ -59,8 +59,9 @@ In the last day before going to vacation in Cancun, I made the final commit to f
 
 ![image](/.attachments/6485a99f0ca690dedc925cf06d056d5fe92a7f86.png)
 
-## Competitor's comparison
+## Competitors comparison
 
+Here I would like to highlight and compare some notable competitors and availability of key features which I defined for myself.
 
 | | Markdown support | Git support | Cross-platform | Web app | Merge conflicts<br>auto-resolution |
 |--|--|--|--|--|--|
