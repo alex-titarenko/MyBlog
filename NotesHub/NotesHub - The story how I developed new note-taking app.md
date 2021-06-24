@@ -20,6 +20,8 @@ I like everything to be in order, to match styles and it's not an easy task when
 I started looking for alternatives. Since I'm already familiar with Markdown, it become the first think to come into my mind as format for notes. Markdown solves the problem with styles since it has limited formatting options. For instance, you can't change font face, color, size just with syntax itself, that is exactly what I needed.
 By searching in App Store, I found GitJournal application which kind of what I was looking for. When I showed it for my wife, she said that it's not good enough to pay for it. My response was: "Ok, challenge accepted, I'll write my own app". That event become the starting point for NotesHub project.
 
+<!--more-->
+
 ## Implementation
 
 Since I'm huge fan of [PWA](https://en.wikipedia.org/wiki/Progressive_web_application) and have experience with creating such application I had no doubt what technology to use. The idea is simple and not new - create web app which uses Git for notes storage and Markdown for notes representation. In October 30, 2020 I made my first commit.
