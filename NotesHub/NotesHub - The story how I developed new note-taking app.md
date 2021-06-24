@@ -1,6 +1,6 @@
 ---
 id: cd3f67ec-5eb6-4cfd-98f6-17a40c0b2969
-published: false
+published: true
 postedOn: 06/15/2021
 image: /.attachments/6485a99f0ca690dedc925cf06d056d5fe92a7f86.png
 description: ""
