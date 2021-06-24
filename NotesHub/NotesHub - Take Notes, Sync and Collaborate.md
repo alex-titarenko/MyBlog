@@ -51,7 +51,7 @@ edited from desktop
 :::
 ````
 Rendered result:
-![image](/.attachments/0c7eb1f0e7e6d362f7443bddb190e7ee8e7eed76.png)
+![image](/.attachments/6170899c18740c6f154dc7b170c5d475ae200b25.png)
 
 > If during note sync different lines were updated, they will be merged automatically without any alternative variants.
 
