@@ -54,13 +54,13 @@ edited from desktop
 :::
 ````
 Rendered result:
-![image](/.attachments/6170899c18740c6f154dc7b170c5d475ae200b25.png)
+![image](.attachments/6170899c18740c6f154dc7b170c5d475ae200b25.png)
 
 > If during note sync different lines were updated, they will be merged automatically without any alternative variants.
 
 In the last day before going to vacation in Cancun, I made the final commit to finalize MVP version of the project and ended the 6-month journey from the idea to first stable release. Project was finally available to public.
 
-![image](/.attachments/6485a99f0ca690dedc925cf06d056d5fe92a7f86.png)
+![image](.attachments/6485a99f0ca690dedc925cf06d056d5fe92a7f86.png)
 
 ## Competitors comparison
 
