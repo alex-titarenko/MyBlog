@@ -3,7 +3,7 @@ id: 0bb90ab8-ef13-47aa-90e4-95b760f939cb
 title: My very first blog post
 published: true
 postedOn: 08/12/2015
-image: /.attachments/8a2309532e27e678df5eb9edb1afe796c0e48557.jpeg
+image: .attachments/8a2309532e27e678df5eb9edb1afe796c0e48557.jpeg
 category: other
 description: My first blog post in which I'll show my plans what I'm about to share.
 ---
@@ -18,4 +18,4 @@ I hope you will find a lot in the future posts and don't forget to leave a comme
 
 <!--more-->
 
-![It's just beginning](/.attachments/8a2309532e27e678df5eb9edb1afe796c0e48557.jpeg)
+![It's just beginning](.attachments/8a2309532e27e678df5eb9edb1afe796c0e48557.jpeg)
