@@ -3,7 +3,7 @@ id: 85463e53-d881-4390-a449-c2a5e79dbeeb
 title: My experience with migration to ASP.NET Core 2.0
 published: true
 postedOn: 05/29/2018
-image: /.attachments/8b7bc415646a5c50af160a73a7198e5745dc8c86.png
+image: .attachments/8b7bc415646a5c50af160a73a7198e5745dc8c86.png
 category: aspnet
 tags: dotnet, netcore, aspnet-core, mvc
 description: I started developing my website in 2012, and it has gone through so many changes. The last major iteration was switching from classic .NET Framework to .NET Core 2.0 and ASP.NET Core as well. You can find many articles regarding ASP.NET Core migration like this. However, they don't cover all cases, that's why I decided to share my own experience.
@@ -20,7 +20,7 @@ The last major iteration was switching from classic .NET Framework to .NET Core 
 With those changes, you can get many benefits. Some of them you will find on the official [introduction](https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-2.0#what-is-asp-net-core) page.
 You can find many articles regarding ASP.NET Core migration like [this](https://docs.microsoft.com/en-us/aspnet/core/migration/?view=aspnetcore-2.0). However, they don't cover all cases, that's why I decided to share my own experience.
 
-![aspnetcore-migration](/.attachments/538e48a4639b3e6e828c535980795bc2d44aca97.svg)
+![aspnetcore-migration](.attachments/39f823deb46c561d7083f6f644fe885165e11f00.svg)
 
 <!--more-->
 
