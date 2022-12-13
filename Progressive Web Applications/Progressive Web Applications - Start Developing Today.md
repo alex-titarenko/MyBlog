@@ -292,7 +292,5 @@ native file system access, unlimited quota, contacts picker, MIME-type handlers,
 
 * Workbox - JavaScript Libraries for adding offline support to web apps<br> https://developers.google.com/web/tools/workbox/
 
-* Progressive Web Applications - Start developing today - Presentation<br> [https://docs.google.com](https://docs.google.com/presentation/d/e/2PACX-1vQlpaTpgeDISQJ-sDlsuu_UK7m6aM4j5YXK64JapC-bU1P1HpPSjb5b-kFdUlfNl6dkfKKJF4IenHEY/pub?start=false&loop=false&delayms=3000)
-
-[presentation](.attachments/6e1601db685248b7bbae55c7c972a11bb7e18b01.pdf)
+* Progressive Web Applications - Start developing today <br>[Presentation](.attachments/6e1601db685248b7bbae55c7c972a11bb7e18b01.pdf)
 
