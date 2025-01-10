@@ -193,7 +193,7 @@ Overall, it was an exciting journey and I'm extremely happy with the result!
 
 This is not a complete list of PWA features. On the table below I listed only the most important ones.
 
-||Service Workers| Web App Manifest | Push Notifications |
+| |Service Workers| Web App Manifest | Push Notifications |
 |:------|:------|:------|:------|
 | Chrome | yes | yes | yes |
 | Edge | yes | no | yes |
