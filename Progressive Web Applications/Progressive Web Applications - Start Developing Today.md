@@ -9,14 +9,14 @@ tags: javascript, pwa
 description: "When I first heard about Progressive Web Applications I exclaimed: \"This is it! That's how application development should look like\". Truly cross-platform, one solution for every platform, from mobile to desktop. Fast, offline, responsive, installable and many more. Then I decided to build my very first PWA! In this post, I want to share all my findings which accumulate my experience with Progressive Web Applications. Let's the story begin."
 ---
 
-# Introduction
+## Introduction
 As a developer, by my nature, I'm really eager for code reuse and for different kind of universal approaches.
 
 When I first heard about Progressive Web Applications I exclaimed: "This is it! That's how application development should look like". Truly cross-platform, one solution for every platform, from mobile to desktop. Fast, offline, responsive, installable and many more.
 
 Then I decided to build my very first PWA! In this post, I want to share all my findings which accumulate my experience with Progressive Web Applications. Let's the story begin.
 
-# PWA
+## PWA
 
 I want to start from the definition of what is actually Progressive Web Applications. First of all, PWA is not a programming language and not a framework; it's a set of web standards. For better understanding what it is, read the PWA characteristics below:
 
@@ -40,7 +40,7 @@ Basically, in a few words, you can transform your website and use as "native" mo
 
 <!--more-->
 
-# 10 Progressive Web Applications that you can use right now
+## 10 Progressive Web Applications that you can use right now
 
 Did you become Interested? Let's check it out who on the market has PWA already. Below, I gathered the list of most prominent Progressive Web Applications which you can try right now:
 
@@ -64,7 +64,7 @@ Did you become Interested? Let's check it out who on the market has PWA already.
 
 10. Telegram https://web.telegram.org/
 
-# Success stories
+## Success stories
 
 Here I would like to showcase some success stories, how PWA can transform the business:
 
@@ -85,7 +85,7 @@ Since Pinterest shipped the new web experience, PWA has become the top platform 
 ### [Tinder](https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0)
 Tinder reduced load time from 11.91 seconds to 4.69 seconds with their new Progressive Web App. The PWA is 90% smaller than Tinder’s native Android application. User engagement is up across the board on the PWA.
 
-# Minimal Progressive Web Application
+## Minimal Progressive Web Application
 
 Building a simple PWA is not rocket science. Consider the example below as "Hello World" application.
 For the minimal Progressive Web Application, we need the following:
@@ -96,7 +96,7 @@ For the minimal Progressive Web Application, we need the following:
 * Html page (index.html)
 * HTTPS
 
-## manifest.json
+### manifest.json
 You can think of **Web App Manifest** file as a collection of properties for your application.
 Here you can specify the name of your app, start URL, icons for pinning to home screen, colors of a splash screen and status bar and many many more.
 This is not a complete list of what you can do, just the minimum one. To see all properties, please read the official [specification](https://www.w3.org/TR/appmanifest/).
@@ -118,7 +118,7 @@ This is not a complete list of what you can do, just the minimum one. To see all
 }
 ```
 
-## serviceworker.js
+### serviceworker.js
 
 As you should already know, a service worker is a piece of javascript code that your browser runs in the background and separate from the web page. As for today, it can perform such operations like push notifications and background sync. In the example below, we will cache index.html file, that will enable offline mode for your first PWA application.
 
@@ -148,7 +148,7 @@ self.addEventListener('fetch', function(event) {
 
 If you would like to dive deeper into service worker development, please read the official [specification](https://w3c.github.io/ServiceWorker).
 
-## index.html
+### index.html
 Finally, the last piece to tie everything together. Here you can find a link to manifest file. Using feature detection approach, we register service worker script.
 
 ```html
@@ -173,7 +173,7 @@ Finally, the last piece to tie everything together. Here you can find a link to 
 
 Congratulations, now you should understand the core principles of building PWA. Let's move on!
 
-# My experience
+## My experience
 
 When you start learning a new technology, what do you usually make? "Hello World" or something similar, right?
 
@@ -189,7 +189,7 @@ I had a similar project written on C# + UWP, I would say PWA version using TypeS
 
 Overall, it was an exciting journey and I'm extremely happy with the result!
 
-# Current browsers support
+## Current browsers support
 
 This is not a complete list of PWA features. On the table below I listed only the most important ones.
 
@@ -202,7 +202,7 @@ This is not a complete list of PWA features. On the table below I listed only th
 
 > Web App Manifest is supported only on Chromium-based browsers, but it's not a big deal since you can substitute some of those features using HTML meta tags like it's done on Safari. Push notifications are not supported only on Safari and unfortunately, there is no workaround for this.
 
-# What web apps can do today
+## What web apps can do today
 
 To understand your potential with PWA and what you can do and what not, we need to research available web standards and their support by modern browsers.
 
@@ -212,13 +212,13 @@ To understand your potential with PWA and what you can do and what not, we need 
 
 > By the time of reading this post, the information above can be outdated. To check the current status of web standards supported by your browser go to [What Web Can Do Today](https://whatwebcando.today).
 
-# Performance
+## Performance
 
 You may think that PWA mobile development is only good for small start-ups and rapid prototyping. You can say that it's not possible to achieve the same level of performance as native applications. Yes, you are right, but in most cases with proper optimizations, you can expect more than enough from PWA in terms of speed.
 
 To confirm my words I encourage you to check your phone for the presence of the following applications: **Netflix**, **Instagram**, **Evernote**, **Twitter**, **Amazon**, **Uber**. You might be surprised, but those apps are not native, they are hybrid applications. Hybrid apps run inside a native container and leverage the device’s browser engine to render the HTML and process the JavaScript locally. A web-to-native abstraction layer enables access to device capabilities that are not accessible in mobile web applications. Because hybrid apps consist from HTML and javascript you may expect the same level of performance for PWA.
 
-# Hybrid Applications vs PWA
+## Hybrid Applications vs PWA
 
 Since we already touched hybrid application it's worth to compare them with PWA. I would say that PWA is the closest relative for hybrid applications and even its evolution. PWA takes hybrid apps farther.
 
@@ -242,7 +242,7 @@ Since we already touched hybrid application it's worth to compare them with PWA.
 
 * **Only features which modern browsers support** — the downside with PWA approach is that not all great features are available in all browsers, especially on Safari. If one of those missing features are critical for you, consider going with a hybrid approach.
 
-# App stores
+## App stores
 
 Ok, we are not living in an ideal world. To cover more audience, you may still want to publish your PWA to app stores even that you don't have to since your application can be installed without them. I have good news for you; you can do it with minimum efforts.
 
@@ -272,7 +272,7 @@ This is an example of the app store completely dedicated to PWA. [Appscope](http
 
 > If you still think it's too difficult, check [PWABuilder](https://www.pwabuilder.com/) portal where projects for app packages can be created for you for free. PWA Builder was founded by Microsoft as a community guided, open source project to help move PWA adoption forward.
 
-# What’s next?
+## What’s next?
 
 I believe that PWA is the future of mobile development where will not be any differences between native and web applications. What you can do today with Progressive Web Applications is impressive but the future is even brighter.
 
@@ -280,7 +280,7 @@ Google on Google IO '19 conference revealed some upcoming great features for Chr
 native file system access, unlimited quota, contacts picker, MIME-type handlers, SMS-based authentication, wake lock, web share target and more.
 > Some of those features can be already implemented when you read this post.
 
-# Learning resources
+## Learning resources
 
 * Get started with Progressive Web Apps<br> https://docs.microsoft.com/en-us/microsoft-edge/progressive-web-apps/get-started
 
